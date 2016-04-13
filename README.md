@@ -1,2 +1,2 @@
-# vagnercs
-Repositório para os arquivos da homepage do DCC/UFMG
+# Homepage Vagner Clementino
+Repositório contendo o conteúdo do site [vagnercs](http://homepages.dcc.ufmg.br/~vagnercs)

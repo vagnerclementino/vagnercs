@@ -50,7 +50,7 @@ regenerate: clean
 	$(PELICAN) -r $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
 
 server:
-	cd $(OUTPUTDIR) && python -m SimpleHTTPServer
+	cd $(OUTPUTDIR) && python -m http.server
 
 devserver:
 	$(BASEDIR)/develop_server.sh restart
